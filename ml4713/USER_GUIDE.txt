@@ -50,7 +50,7 @@ II USER GUIDE
 
 1. What this part does, and how to run this part? 
 This part explores the dataset from various perspectives, mainly through visual aspect.
-Before running this part, please download the dataset named ‘adult.txt’ from the directory which contains the project code. To run this part, main file for this is under the file named “data_visual_MengfeiLi.py”. Type ‘python data_visual_MengfeiLi.py’ in terminal or other python IDE.
+Before running this part, please download the dataset named ‘adult_data.txt’ from the directory which contains the project code. To run this part, main file for this is under the file named “data_visual_MengfeiLi.py”. Type ‘python data_visual_MengfeiLi.py’ in terminal or other python IDE.
 
 2. What input this part takes?
 This part takes string as an input from user, which is required by the following format:
