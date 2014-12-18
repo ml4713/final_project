@@ -35,7 +35,7 @@ def clean_data_for_visual(f_path):
     col_to_edit = ['workclass','education','martial-status','occupation','relationship','sex','native-country','race','y']
     for col in col_to_edit:
         uncleaned_data[col] = uncleaned_data[col].map(lambda x:str(x).strip()) #remove whitespace in categorical values
-        cleaned_data = uncleaned_data[uncleaned_data['y']!='nan']
+    cleaned_data = uncleaned_data[uncleaned_data['y']!='nan']
     return cleaned_data
 
         
